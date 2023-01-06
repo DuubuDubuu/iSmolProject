@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  line-height: 1.6em;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+ 
+}
+
+header{
+  background-color: #00203FFF;
+  border-bottom: #f1dac4 10px solid;
+  min-height: 80px;
+  padding-top: 18px;
+}
+
+header #branding{
+  color: #ADEFD1FF;
+  float: left;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ADEFD1FF;
+}
+
+
+
+header ul{
+  float: right;
+  list-style: none;  
+}
+
+header ul li{
+  display: inline;
+  padding-right: 15px;
+  color: #ADEFD1FF;
+}
+
+#showcase{
+  border: 5px black solid;
+  padding: 20px 0 20px 0;
+  color: #00203FFF;
+  background-color: #ADEFD1FF;
+  border-radius: 2%;
+  margin-bottom: 25px;
+}
+
+#Instructions h3 {
+  text-align: center;
+}
+#Instructions p{
+  text-align: center;
+}
+#Instructions {
+  border: black 2px solid;
+  padding: 25px 0 25px 0;
+}
+
+form input[type='submit']{
+  margin-top: 15px;
+  margin-left: 280px;
+  height: 30px;
+  width: 200px;
+}
+
+form input .btn1{
+  margin-top: 15px;
+  margin-left: 280px;
+  height: 30px;
+  width: 200px;
+}
+
+
+
+/*expenseTracker */
+
+#forms{
+  border: 2px black solid;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+#expenseBranding{
+  background-color: #00203FFF;
+  color: #ADEFD1FF;
+}
+
+#listofExpense{
+  border: 2px black solid;
+  min-height: 100px;
+  margin-top: 10px;
+
+  
+}
+
+.nameofExpense{
+  width: 40%;
+  float: left;
+
+}
+
+.valueofExpense{
+  width: 40%;
+  float: right;
+}
+
+.textDeco{
+list-style: none;
+}

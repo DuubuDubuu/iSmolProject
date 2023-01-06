@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="mainHeader">
+    <div class="container">
+      <div id="branding">
+      <h1>Expense Tracker</h1>
+    </div>
+
+    <nav id="mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="expenseTracker.html">Expense Tracker</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  
+  <section id="showcase">
+  <div class="container">
+    <h3>Welcome to the Expense Tracker</h3>
+    <p>This is an Expense Tracker, in which you can put your expense to be listed like no ordinary lister. This will help you in your daily life.</p>
+  </div>
+  </section>
+
+  
+  <div class="container">
+    <form action="submit" id="forms">
+      <div>
+        <label>Input Name of Expense </label>
+        <input type="text" id="expenseName" placeholder="Enter Expense Name">
+      </div>
+      <div>
+        <label>Input Value of Expense </label>
+        <input type="number" id="expenseValue" placeholder="Enter Expense Value">
+      </div>
+    <input type="submit" value="Submit" class="btn1">
+    </form>
+  </div>
+  
+
+  <header>
+    <div class="container">
+      <div id="expenseBranding">
+        <h1>List of Exepenses</h1>
+      </div>
+    </div>
+  </header>
+
+  <section id="listofExpense">
+    <div class="container">
+      <div class="nameofExpense">
+        <h5>Name of Expense:</h5>
+        <ul id="user-list-expense-name">
+          
+        </ul>
+      </div>
+
+      <div id="valueofExpense">
+        <h5>Value of Expense:</h5>
+        <ul id="user-list-expense-value">
+          
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script src="main.js"></script>
+</html>
