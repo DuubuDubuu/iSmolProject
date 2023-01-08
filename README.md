@@ -1,2 +1,3 @@
 # iSmolProject
 Smolll Proj
+noUpdate
